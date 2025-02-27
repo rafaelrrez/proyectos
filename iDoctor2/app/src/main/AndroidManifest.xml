@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IDoctor2"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.patients.ViewPdfEvaluationPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.patients.DetailEvaluationPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.patients.ListEvaluationAppoinmentPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.CreateAppointmentEvaluationProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.ListConsultationAppointmentProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.ListAppointmentProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.patients.DetailsAppointmentPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.patients.CreateAssessmentPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.GenerateAppointmentsProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.patients.BookAppointmentPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.patients.ListAppointmentConsultationProfessionalPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.patients.ListConsultationProfessionalPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.DetailsTimetableProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.ListConsultationTimetableProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.CreateTimetableConsultationProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.ListTimetableProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.DetailsAppointmentProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.CreateAppointmentProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.DetailsAssessmentProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.patients.DetailsProfessionalPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.DetailsConsultationProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.ListConsultationProfessional"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.ListAssessmentsProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.patients.InformationProfilePatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.professionals.InformationProfileProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

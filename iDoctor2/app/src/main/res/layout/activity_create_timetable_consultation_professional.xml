@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.professionals.CreateTimetableConsultationProfessionalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_color"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/back_icon"
+                android:backgroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/tvConsultation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/inter"
+                android:text="Create Timetable"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/curve_linear">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/spinnerDayOfWeek"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="40dp"
+                style="@style/CustomAppCompatSpinner" />
+
+            <EditText
+                android:id="@+id/etStartTime"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_style"
+                android:drawableTint="#A1A8B0"
+                android:drawableStart="@drawable/clock_icon"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:hint="Enter start hour"
+                android:textColorHint="#717784"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:textSize="15sp"
+                android:textColor="#717784"
+                android:focusable="false" />
+
+            <EditText
+                android:id="@+id/etEndTime"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_style"
+                android:drawableTint="#A1A8B0"
+                android:drawableStart="@drawable/clock_icon"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:hint="Enter end hour"
+                android:textColorHint="#717784"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:textSize="15sp"
+                android:textColor="#717784"
+                android:focusable="false" />
+
+
+            <Button
+                android:id="@+id/btnCreate"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/inter_semibold"
+                android:background="@drawable/login_btn"
+                android:text="Create"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

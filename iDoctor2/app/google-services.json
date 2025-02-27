@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "642409846972",
+    "firebase_url": "https://idoctor2-f49ca-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "idoctor2-f49ca",
+    "storage_bucket": "idoctor2-f49ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642409846972:android:0f8e29380e910ac61358b9",
+        "android_client_info": {
+          "package_name": "es.iescarrillo.project.idoctor2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF79tHJHEAUJfvKeTiaehZ3otPbdexBhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

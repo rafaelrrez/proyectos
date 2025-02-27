@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.professionals.CreateAppointmentEvaluationProfessionalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_color"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/back_icon"
+                android:backgroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/tvTimetableConsultation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/inter"
+                android:text="Create Evaluation"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/curve_linear"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/etMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_semibold"
+                android:text="Enter the appointment data:"
+                android:textColor="@color/primaryColor"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/etTitleReport"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Enter report Title"
+                    android:background="@drawable/sv_style"
+                    android:paddingStart="10dp"
+                    android:drawablePadding="20dp"
+                    android:drawableStart="@drawable/title_icon"
+                    android:textColorHint="#717784"
+                    android:inputType="text"
+                    android:fontFamily="@font/inter_regular"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/et_style"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="message icon"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_featured_play_list_24" />
+
+                <EditText
+                    android:id="@+id/etDescription"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#717784"
+                    android:hint="Enter evaluation description"
+                    android:textColorHint="#717784"
+                    android:fontFamily="@font/inter_regular"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/et_style"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="message icon"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/doctor_icon" />
+
+                <EditText
+                    android:id="@+id/etExploration"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#717784"
+                    android:hint="Enter evaluation exploration"
+                    android:textColorHint="#717784"
+                    android:fontFamily="@font/inter_regular"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/et_style"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="message icon"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/treatment_icon" />
+
+                <EditText
+                    android:id="@+id/etTreatment"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#717784"
+                    android:hint="Enter evaluation treatment"
+                    android:textColorHint="#717784"
+                    android:fontFamily="@font/inter_regular"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCreate"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/inter_semibold"
+                android:background="@drawable/login_btn"
+                android:text="Create"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

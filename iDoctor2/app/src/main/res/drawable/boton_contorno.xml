@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/drawable/boton_personalizado.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Fondo blanco -->
+    <corners android:radius="32dp" /> <!-- Radio de esquinas -->
+    <stroke
+        android:width="2dp"
+        android:color="#19998D" /> <!-- Contorno con ancho de 2dp y color #19998D -->
+</shape>
+
+
+
+
+
+
