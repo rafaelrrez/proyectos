@@ -4,6 +4,8 @@
 
 **iDoctorApp** es una aplicación móvil desarrollada en **Java para Android**, diseñada para facilitar la gestión de citas médicas entre pacientes y doctores.
 
+![Vista previa de aplicación mobile](iDoctorApp/documents_images/idoctor.jpg)
+
 ## Tecnologías Utilizadas
 
 - **Java**: Lenguaje de programación principal del proyecto.
