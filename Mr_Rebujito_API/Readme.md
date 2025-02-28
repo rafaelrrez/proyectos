@@ -2,19 +2,19 @@
 
 ## Descripción
 
-**Mr\_Rebujito\_API** es una aplicación desarrollada con **Spring Boot** que proporciona una API RESTful para la gestión de recetas de cócteles, con énfasis en el "Rebujito".
+**Mr\_Rebujito\_API** es una aplicación desarrollada con **Spring Boot** que proporciona una API RESTful para la gestión de casetas de feria.
 
 ## Tecnologías Utilizadas
 
 - **Java**: Lenguaje de programación principal del proyecto.
 - **Spring Boot**: Framework para el desarrollo de aplicaciones empresariales en Java.
 - **Maven**: Herramienta de gestión de dependencias y construcción del proyecto.
-- **H2 Database**: Base de datos en memoria utilizada para pruebas y desarrollo.
+- **Hibernate**: Base de datos en memoria utilizada para pruebas y desarrollo.
 
 ## Funcionalidades Principales
 
-- **Gestión de Recetas**: Permite crear, leer, actualizar y eliminar recetas de cócteles.
-- **Gestión de Ingredientes**: Maneja la información relacionada con los ingredientes de las recetas.
+- **Gestión de Casetas**: Permite crear, leer, actualizar y eliminar casetas de feria.
+- **Gestión de Casetas**: Maneja la información relacionada con las casetas así como sus socios, miembros, productos que se venden, la licencia de dicha caseta.
 - **Autenticación y Autorización**: Implementa seguridad básica para proteger los endpoints de la API.
 
 ## Estructura del Proyecto
@@ -47,5 +47,5 @@ src/
 
 ## Conclusión
 
-**Mr\_Rebujito\_API** es una aplicación desarrollada con Spring Boot que proporciona una API RESTful para la gestión de recetas de cócteles. Su estructura modular y el uso de tecnologías estándar facilitan su mantenimiento y escalabilidad.
+**Mr\_Rebujito\_API** es una aplicación desarrollada con Spring Boot que proporciona una API RESTful para la gestión de casetas de feria. Su estructura modular y el uso de tecnologías estándar facilitan su mantenimiento y escalabilidad.
 
