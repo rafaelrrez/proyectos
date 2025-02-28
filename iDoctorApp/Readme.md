@@ -4,6 +4,7 @@
 
 **iDoctorApp** es una aplicación móvil desarrollada en **Java para Android**, diseñada para facilitar la gestión de citas médicas entre pacientes y doctores.
 
+![Vista previa de aplicación mobile](documents_images/idoctor.jpg)
 
 ## Tecnologías Utilizadas
 
@@ -57,3 +58,4 @@ iDoctorApp/
 
 ## Conclusión
 
+**iDoctorApp** es una aplicación móvil que mejora la gestión de citas médicas mediante una integración eficiente con Firebase. Su arquitectura modular permite un desarrollo escalable y fácil mantenimiento.
