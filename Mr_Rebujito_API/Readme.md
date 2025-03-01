@@ -9,7 +9,7 @@
 - **Java**: Lenguaje de programación principal del proyecto.
 - **Spring Boot**: Framework para el desarrollo de aplicaciones empresariales en Java.
 - **Maven**: Herramienta de gestión de dependencias y construcción del proyecto.
-- **Hibernate**: Base de datos en memoria utilizada para pruebas y desarrollo.
+- **MySQL**: Base de datos en memoria utilizada para pruebas y desarrollo.
 
 ## Funcionalidades Principales
 
